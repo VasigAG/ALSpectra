@@ -40,7 +40,7 @@ class signal:
         len_ = len(self.wav)
         fft_mag = abs(fft_)
         freq_buckets = np.linspace(0,self.sample_rate,len_)
-        return fft_
+        return fft_,freq_buckets
 
     def __len__(self):
         return len(self.wav)
