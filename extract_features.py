@@ -169,7 +169,7 @@ def extract_features_from_phonations(base_folder, patient_excel, output_csv="tra
 
     # Save to CSV
     merged_df.to_csv(output_csv, index=False)
-    print(f"\n✅ Feature extraction and merge complete. Saved to '{output_csv}'.")
+    print(f"\nFeature extraction and merge complete. Saved to '{output_csv}'.")
 
 
 #Running main function
